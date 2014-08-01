@@ -6,7 +6,9 @@ Ember.MODEL_FACTORY_INJECTIONS = true;
 
 var App = Ember.Application.extend({
   modulePrefix: 'hbb-api-web', // TODO: loaded via config
-  Resolver: Resolver
+  podModulePrefix: 'hbb-api-web/pods',
+  Resolver: Resolver,
+  LOG_TRANSITIONS: true,
 });
 
 loadInitializers(App, 'hbb-api-web');
