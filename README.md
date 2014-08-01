@@ -1,5 +1,9 @@
 # Hbb-api-web
 
+Ember.js conversion of Hbb Api Web using Ember CLI with POD structure. Created in the process of me learning the framework
+
+---
+
 This README outlines the details of collaborating on this Ember application.
 
 ## Installation

@@ -5,7 +5,7 @@ var Router = Ember.Router.extend({
 });
 
 Router.map(function() {
-  this.resource('peerreview', function() {
+  this.resource('peer-reviews', function() {
     this.route('new');
   });
 });
